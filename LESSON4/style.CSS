@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(172, 248, 233);
+}
+h1 {
+    border: 2px dashed rgb(248, 0, 0);
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 50ch;
+}
