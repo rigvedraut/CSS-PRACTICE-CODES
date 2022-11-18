@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: green;
+}
+
+a:visited {
+    color: hsl(195, 98%, 23%);
+}
+
+a:hover , a:focus {
+    color: hsl(203, 65%, 32%, 0.8);
+    background-color: yellow;
+}
+
+a:active {
+    color: brown;
+}
