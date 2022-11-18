@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 10px outset rgb(251, 117, 33);
+    font-size: 1.5rem;
+    margin: 1.5em;
+/*  margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em; */
+    padding: 1.5em;
+    outline: 5px solid rgb(202, 5, 5);
+    outline-offset: -20px;
+}
+
+.circle {
+    margin: 3rem auto;
+    background-color: rgb(73, 219, 235);
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(251, 117, 33);
+    border-radius: 75px;
+    outline: 4px solid rgb(202, 5, 5);
+    outline-offset: 0.25rem;
+}
