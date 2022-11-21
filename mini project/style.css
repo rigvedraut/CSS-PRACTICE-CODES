@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+nav {
+    border: 3px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+h2  {
+    padding: 2.5%;
+    background: plum;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-top: 2px solid #333;
+}
+
+li a {
+    display: block;
+}
+
+li a, 
+li a :visited {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+h2 {
+    background: rgb(29, 139, 182);
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-top: 2px solid #333;
+}
+
+li a {
+    display: block;
+}
+
+li a,
+li a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    background-color: rgb(139, 222, 186);
+    color: rgb(0, 79, 128);
+    cursor: pointer;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
