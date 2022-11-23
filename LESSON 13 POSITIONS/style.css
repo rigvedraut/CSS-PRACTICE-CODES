@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  min-height: 200vh;
+}
+
+.outer-container {
+    border: 3px dashed rgb(190, 182, 17);
+    width: 75vw;
+    height: 85vw;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid rgb(240, 13, 13);
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.absolute {
+    background-color: rgb(246, 112, 10);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.relative {
+    background-color: burlywood;
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.fixed {
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sticky {
+    background-color: lavender;
+    position: sticky;
+    top: 0;
+}
+
+/* Rememebr how to make things dissappear! */
+/* ------------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+}
+
+.blue { background-color: rgb(208, 131, 29);}
+.red { background-color: rgb(45, 96, 197);}
+.green { background-color: rgb(12, 149, 103);}
+
+header, footer {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: bisque;
+    /* position: fixed; */
+    position: sticky;
+    bottom: 0;
+/*     width: 100%; */
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.social {
+    background-color: rgb(89, 46, 132);
+    color: #fff;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
